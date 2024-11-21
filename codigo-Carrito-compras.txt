@@ -1,0 +1,31 @@
+carrito = {}  # Diccionario para almacenar los artículos del carrito
+
+def agregar_articulo():
+  nombre_articulo = input("Ingrese el nombre del artículo: ")
+  cantidad = int(input("Ingrese la cantidad: "))
+  precio = float(input("Ingrese el precio unitario: "))
+
+  # Crear un diccionario para representar el artículo
+  articulo = {
+    "nombre": nombre_articulo,
+    "cantidad": cantidad,
+    "precio": precio
+  }
+
+  # Agregar el artículo al carrito, o actualizar la cantidad si ya existe
+  if nombre_articulo in carrito:
+    carrito[nombre_articulo]["cantidad"] += cantidad
+  else:
+    carrito[nombre_articulo] = articulo
+
+  print(f"{cantidad} {nombre_articulo}(s) agregado(s) al carrito.")
+
+def ver_carrito():
+  print("\nContenido del carrito:")
+  for articulo, detalles in carrito.items():
+    print(f"- {detalles['cantidad']} {articulo} - ${detalles['precio']*detalles['cantidad']}")
+
+# Ejemplo de uso
+agregar_articulo()
+agregar_articulo()
+ver_carrito()
