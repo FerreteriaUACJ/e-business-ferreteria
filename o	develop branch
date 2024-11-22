@@ -1,0 +1,15 @@
+Desarrollo colaborativo:
+
+Todas las nuevas funcionalidades o correcciones de errores se desarrollan en ramas individuales creadas desde develop.
+Las ramas de funcionalidad deben seguir el formato:
+feature/nombre-de-la-funcionalidad (por ejemplo, feature/login, feature/carrito).
+Si es una corrección de errores:
+fix/nombre-del-error (por ejemplo, fix/autenticacion).
+Integración de funcionalidades:
+
+Una vez que una funcionalidad se ha desarrollado y probado en su rama, se realiza un Pull Request (PR) hacia develop.
+Otro colaborador debe revisar el código antes de fusionar el PR.
+Estrategia de pruebas:
+
+Antes de fusionar una rama en develop, realiza pruebas unitarias y de integración.
+Corre las pruebas automatizadas en el entorno de desarrollo para asegurar que no se rompa nada existente.
