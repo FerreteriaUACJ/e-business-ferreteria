@@ -91,3 +91,10 @@ Base de datos:
 Tabla reviews con campos: id, product_id, user_id, calificacion, comentario.
 Pruebas:
 Verificar que usuarios registrados puedan comentar.
+
+Versión Final - 1.0
+Descripción: Versión completa del sistema, con pruebas exhaustivas.
+Contenido:
+Todas las funcionalidades integradas.
+Corrección de errores identificados en pruebas.
+Documentación final.
