@@ -65,3 +65,16 @@ Pruebas:
 Simular un pago correcto e incorrecto.
 Funcionalidades adicionales:
 Actualización automática del stock tras un pago exitoso.
+
+Versión 0.6 - Notificaciones y historial de compras
+Descripción: Adición de notificaciones y consulta de pedidos anteriores.
+Contenido:
+Frontend:
+Página de historial de compras (orders.html).
+Notificación de confirmación tras un pedido exitoso.
+Backend:
+Rutas para obtener historial de compras del usuario.
+Envío de correos electrónicos de confirmación (opcional).
+Base de datos:
+Tabla orders para registrar pedidos.
+Tabla order_items para detallar los productos de cada pedido.
