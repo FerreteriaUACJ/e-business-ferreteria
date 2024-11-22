@@ -1,0 +1,36 @@
+productos = {}  
+
+def agregar_producto(nombre, precio, cantidad):
+    producto = {"precio": precio, "cantidad": cantidad}
+    productos[nombre] = producto
+    print(f"Producto {nombre} agregado con éxito.")
+
+def eliminar_producto(nombre):
+    if nombre in productos:
+        del productos[nombre]
+        print(f"Producto {nombre} eliminado.")
+    else:
+        print(f"Producto {nombre} no encontrado.")
+
+def consultar_producto(nombre):
+    if nombre in productos:
+        producto = productos[nombre]
+        print(f"Producto: {nombre}")
+        print(f"Precio: ${producto['precio']}")
+        print(f"Cantidad en stock: {producto['cantidad']}")
+    else:
+        print(f"Producto {nombre} no encontrado.")
+
+def ver_inventario():
+    if not productos:
+        print("El inventario está vacío.")
+    else:
+        print("Inventario:")
+        for nombre, producto in productos.items():
+            print(f"- {nombre}: {producto['cantidad']} unidades en stock")
+
+agregar_producto("Martillo", 15.99, 20)
+agregar_producto("Clavos (paquete)", 2.99, 50)
+consultar_producto("Martillo")
+eliminar_producto("Clavos (paquete)")
+ver_inventario()
