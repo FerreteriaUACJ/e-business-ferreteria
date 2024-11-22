@@ -1,2 +1,2 @@
 # esto-es-una-prueba
-pos una pruba
+pos una prueba
