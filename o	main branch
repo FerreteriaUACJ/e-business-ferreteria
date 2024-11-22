@@ -25,3 +25,16 @@ Tabla users con campos: id, nombre, correo, contraseña, rol.
 Pruebas básicas:
 Verificar registro de usuarios.
 Probar login correcto e incorrecto.
+
+Versión 0.3 - Catálogo de productos
+Descripción: Implementación de la visualización del catálogo de productos.
+Contenido:
+Frontend:
+Página principal (catalog.html) con lista de productos.
+Diseño con HTML y CSS.
+Backend:
+Ruta para obtener productos desde la base de datos (/products).
+Base de datos:
+Tabla products con campos: id, nombre, descripcion, precio, stock.
+Funcionalidades:
+Mostrar productos con nombre, descripción, precio y stock disponible.
