@@ -34,3 +34,4 @@ agregar_producto("Clavos (paquete)", 2.99, 50)
 consultar_producto("Martillo")
 eliminar_producto("Clavos (paquete)")
 ver_inventario()
+
