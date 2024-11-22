@@ -1,0 +1,13 @@
+version de producto
+Versión 0.1 - Configuración inicial
+Descripción: Configuración básica del proyecto.
+Contenido:
+Estructura inicial del repositorio:
+Carpeta frontend/ para archivos del cliente (HTML, CSS, JavaScript).
+Carpeta backend/ para el servidor y API.
+Carpeta database/ para scripts de configuración de la base de datos.
+Archivo de configuración inicial (README.md) describiendo el proyecto y su objetivo.
+Archivos base como:
+index.html en el frontend.
+server.js (Node.js) o app.py (Django) en el backend.
+Script SQL para crear la base de datos inicial.
