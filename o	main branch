@@ -52,3 +52,16 @@ Base de datos:
 Tabla cart (temporal) para almacenar el carrito del usuario actual.
 Pruebas:
 Verificar que productos se añadan correctamente al carrito.
+
+Versión 0.5 - Sistema de pagos
+Descripción: Implementación de la funcionalidad de pago en línea.
+Contenido:
+Frontend:
+Formulario de pago (checkout.html) con simulación de tarjeta.
+Backend:
+Integración con una API de pagos (Stripe, PayPal, o una simulada).
+Ruta para procesar pagos.
+Pruebas:
+Simular un pago correcto e incorrecto.
+Funcionalidades adicionales:
+Actualización automática del stock tras un pago exitoso.
