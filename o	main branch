@@ -11,3 +11,17 @@ Archivos base como:
 index.html en el frontend.
 server.js (Node.js) o app.py (Django) en el backend.
 Script SQL para crear la base de datos inicial.
+
+Versión 0.2 - Registro y autenticación
+Descripción: Implementación del sistema de registro y autenticación de usuarios.
+Contenido:
+Frontend:
+Formularios de registro (register.html) y login (login.html).
+Backend:
+Rutas para registro y autenticación (ejemplo: /register, /login).
+Validación básica de entradas (correos válidos, contraseñas seguras).
+Base de datos:
+Tabla users con campos: id, nombre, correo, contraseña, rol.
+Pruebas básicas:
+Verificar registro de usuarios.
+Probar login correcto e incorrecto.
