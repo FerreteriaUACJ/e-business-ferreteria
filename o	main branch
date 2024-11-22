@@ -78,3 +78,16 @@ Envío de correos electrónicos de confirmación (opcional).
 Base de datos:
 Tabla orders para registrar pedidos.
 Tabla order_items para detallar los productos de cada pedido.
+
+
+Versión 0.7 - Opiniones y calificaciones
+Descripción: Implementación de sistema de comentarios y calificaciones.
+Contenido:
+Frontend:
+Formulario para añadir opiniones a productos (reviews.html).
+Backend:
+Ruta para guardar y mostrar opiniones (/reviews).
+Base de datos:
+Tabla reviews con campos: id, product_id, user_id, calificacion, comentario.
+Pruebas:
+Verificar que usuarios registrados puedan comentar.
