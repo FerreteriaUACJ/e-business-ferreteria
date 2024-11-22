@@ -1,0 +1,21 @@
+usuarios = {}  
+
+def registrar_usuario():
+  nombre = input("Ingrese su nombre: ")
+  apellido = input("Ingrese su apellido: ")
+  email = input("Ingrese su correo electrónico: ")
+  contrasena = input("Ingrese su contraseña: ")
+
+
+  nuevo_usuario = {
+    "nombre": nombre,
+    "apellido": apellido,
+    "email": email,
+    "contrasena": contrasena
+  }
+
+
+  usuarios[email] = nuevo_usuario  # Usamos el email como clave única
+  print("¡Usuario registrado exitosamente!")
+
+registrar_usuario()
