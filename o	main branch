@@ -38,3 +38,17 @@ Base de datos:
 Tabla products con campos: id, nombre, descripcion, precio, stock.
 Funcionalidades:
 Mostrar productos con nombre, descripción, precio y stock disponible.
+
+Versión 0.4 - Carrito de compras
+Descripción: Implementación del carrito de compras básico.
+Contenido:
+Frontend:
+Página del carrito (cart.html) con productos seleccionados.
+Botones para añadir productos desde el catálogo.
+Backend:
+Rutas para añadir, eliminar y actualizar productos en el carrito.
+Lógica de cálculo del total.
+Base de datos:
+Tabla cart (temporal) para almacenar el carrito del usuario actual.
+Pruebas:
+Verificar que productos se añadan correctamente al carrito.
